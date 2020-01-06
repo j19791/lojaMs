@@ -11,3 +11,5 @@ Quebrar solução em ms, comunicação de ms entre si, load balance de requisiç
 - Spring Boot 2.1.5
 
 ## Domínio
+![Contexto](https://github.com/j19791/lojaMs/blob/master/contexto.jpg)
+
