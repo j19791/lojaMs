@@ -11,5 +11,10 @@ Quebrar solução em ms, comunicação de ms entre si, load balance de requisiç
 - Spring Boot 2.1.5
 
 ## Domínio
+- O Domínio da aplicação é quebrado em contextos menores utilizando DDD (Domain Driven Design)
+- Cada contexto é uma implementação de ms diferente: Fornecedor, Loja e Transportador
+- Cada contexto da modelagem possui necessidades específicas e sua independência do resto da aplicação induz ao baixo acoplamento.
 ![Contexto](https://github.com/j19791/lojaMs/blob/master/contexto.jpg)
 
+# Requisição
+![Contexto](https://github.com/j19791/lojaMs/blob/master/imagens/aula1_requisicao_json.jpg)
