@@ -16,5 +16,11 @@ Quebrar solução em ms, comunicação de ms entre si, load balance de requisiç
 - Cada contexto da modelagem possui necessidades específicas e sua independência do resto da aplicação induz ao baixo acoplamento.
 ![Contexto](https://github.com/j19791/lojaMs/blob/master/contexto.jpg)
 
-# Requisição
+## Requisição
 ![Contexto](https://github.com/j19791/lojaMs/blob/master/imagens/aula1_requisicao_json.jpg)
+
+## RestTemplate
+Resover o ip/porta passando apenas o id 
+
+## Load Balancing 
+Processo de distribuir as requisições vindas dos usuários para as várias instâncias disponíveis. A cada requisição, o Ribbon rotaciona para uma instância diferente.

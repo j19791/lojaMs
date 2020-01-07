@@ -5,7 +5,7 @@ import java.util.List;
 public class CompraDTO {
 
 	private List<ItemDaCompraDTO> itens;
-	private EnderecoDTO endereco;
+	private EnderecoDTO endereco; //endereço do destinatário
 	
 	
 	public List<ItemDaCompraDTO> getItens() {

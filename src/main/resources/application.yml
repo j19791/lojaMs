@@ -1,0 +1,14 @@
+# configuração para q o serviço seja registrado ao eureka
+# não esquecer de incluir a dependencia Eureka Discover Client
+# Spring > edit starter
+
+eureka:
+  client:
+    fetch-registry: true
+    register-with-eureka: true
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+    
+spring:  application:    name: "loja"
+    
+        
