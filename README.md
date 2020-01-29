@@ -24,3 +24,8 @@ Resover o ip/porta passando apenas o id
 
 ## Load Balancing 
 Processo de distribuir as requisições vindas dos usuários para as várias instâncias disponíveis. A cada requisição, o Ribbon rotaciona para uma instância diferente.
+
+## Spring Feign
+- Alternativa ao RestTemplate, que já usa o Ribbon para CSLB (client side load balance)
+- exige uma interface, com a definição e mapeamento dos métodos que executarão a requisição
+- Toda a implementação da interface é gerada pelo Spring Feign
